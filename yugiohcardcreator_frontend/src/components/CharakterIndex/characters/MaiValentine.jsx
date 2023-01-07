@@ -10,7 +10,7 @@ function MaiValentine() {
 
 return (
   <>
-   <button onClick={toggleModal}>Mai Valentine</button>
+   <button onClick={toggleModal}  className="char-btn">Mai Valentine</button>
 
 {character && 
 <div className="modal">

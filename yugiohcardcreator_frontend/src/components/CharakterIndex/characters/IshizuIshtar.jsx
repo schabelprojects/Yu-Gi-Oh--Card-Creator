@@ -10,7 +10,7 @@ function IshizuIshtar() {
 
 return (
   <>
-   <button onClick={toggleModal}>Ishizu Ishtar</button>
+   <button onClick={toggleModal}  className="char-btn">Ishizu Ishtar</button>
 
 {character && 
 <div className="modal">

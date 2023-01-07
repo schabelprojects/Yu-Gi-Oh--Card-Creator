@@ -10,7 +10,7 @@ function MarikIshtar() {
 
 return (
   <>
-   <button onClick={toggleModal}>Marik Ishtar</button>
+   <button onClick={toggleModal}  className="char-btn">Marik Ishtar</button>
 
 {character && 
 <div className="modal">

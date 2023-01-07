@@ -10,7 +10,7 @@ function WeevilUnderwood() {
 
 return (
   <>
-   <button onClick={toggleModal}>Weevil Underwood</button>
+   <button onClick={toggleModal} className="char-btn">Weevil Underwood</button>
 
 {character && 
 <div className="modal">

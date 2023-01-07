@@ -10,7 +10,7 @@ function MakoTsunami() {
 
 return (
   <>
-   <button onClick={toggleModal}>Mako Tsunami</button>
+   <button onClick={toggleModal}  className="char-btn">Mako Tsunami</button>
 
 {character && 
 <div className="modal">

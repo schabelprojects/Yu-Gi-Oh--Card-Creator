@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import setokaiba from "../../../media/setokaiba.jpg";
 
 function SetoKaiba() {
 
@@ -11,18 +12,20 @@ function SetoKaiba() {
 
   return (
     <>
-     <button onClick={toggleModal}>Seto Kaiba</button>
+     <button onClick={toggleModal} className="char-btn">Seto Kaiba</button>
 
 {character && 
  <div className="modal">
  <div className="overlay" onClick={toggleModal}></div>
  <div className="modal-content">
-   <h2>Hello Modal</h2>
+     <img src={setokaiba} className="char-img" />
+   <h2>Seto Kaiba</h2>
    <p>
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-     labore quisquam similique inventore. Explicabo, quisquam nesciunt
-     enim cupiditate ducimus dolor sit cum recusandae libero impedit
-     distinctio, fugiat architecto ut laborum.
+     Seto Kaiba ist Yugi´s stärkster Rivale. Als Inhaber eines großen Spielekonzerns gehört es
+       zu Kaibas Lebensziel Yugi in einem Duel zu besiegen. Sein größter Unterstützer ist sein
+       kleiner Bruder Mokuba. Er setzt sein Vertrauen in sein Können. Seine gefährlichste
+       Waffe ist sein legendärer Weißer Drache mit eiskaltem Blick auf den er sich stets
+       verlassen kann.
    </p>
    <button className="close-modal" onClick={toggleModal}>
      Close

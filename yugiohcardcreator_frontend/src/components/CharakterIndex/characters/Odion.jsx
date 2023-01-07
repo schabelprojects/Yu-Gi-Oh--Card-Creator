@@ -10,7 +10,7 @@ function Odion() {
 
 return (
   <>
-   <button onClick={toggleModal}>Odion</button>
+   <button onClick={toggleModal}  className="char-btn">Odion</button>
 
 {character && 
 <div className="modal">

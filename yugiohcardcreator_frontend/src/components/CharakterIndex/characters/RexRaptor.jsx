@@ -10,7 +10,7 @@ function RexRaptor() {
 
 return (
   <>
-   <button onClick={toggleModal}>Rex Raptor</button>
+   <button onClick={toggleModal} className="char-btn">Rex Raptor</button>
 
 {character && 
 <div className="modal">

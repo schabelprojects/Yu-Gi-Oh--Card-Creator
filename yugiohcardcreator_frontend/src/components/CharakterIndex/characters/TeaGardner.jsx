@@ -10,7 +10,7 @@ function TeaGardner() {
 
 return (
   <>
-   <button onClick={toggleModal}>Tea Gardner</button>
+   <button onClick={toggleModal} className="char-btn">Tea Gardner</button>
 
 {character && 
 <div className="modal">

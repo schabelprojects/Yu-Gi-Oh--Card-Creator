@@ -10,7 +10,7 @@ function Dartz() {
 
 return (
   <>
-   <button onClick={toggleModal}>Dartz</button>
+   <button onClick={toggleModal}  className="char-btn">Dartz</button>
 
 {character && 
 <div className="modal">

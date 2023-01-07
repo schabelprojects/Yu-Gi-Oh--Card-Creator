@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import yamiyugi from "../../../media/yamiyugi.png";
 
 function Atem() {
   const [character, setCharacter] = useState(false);
@@ -10,18 +11,20 @@ function Atem() {
 
 return (
   <>
-   <button onClick={toggleModal}>Atem (Yami Yugi)</button>
+   <button onClick={toggleModal}  className="char-btn">Atem (Yami Yugi)</button>
 
 {character && 
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={yamiyugi} className="char-img" />
+ <h2>Atem (Yami Yugi)</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Atem (oder auch Yami Yugi) war ein mächtiger Pharao der die Monster in die sieben
+   Milleniumsgegenstände verbannte. Er verbannte zudem auch seine Seele und seine Erinnerungen
+   in das Milleniumspuzzle. Nach 5000 Jahren war es ihm und Yugi Muto bestimmt den letzten Kampf
+   gegen das Böse erneut zu begegnen und somit die Seele des Pharaos zu befreien.
+
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close

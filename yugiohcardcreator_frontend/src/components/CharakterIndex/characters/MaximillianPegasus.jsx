@@ -10,7 +10,7 @@ function MaximillianPegasus() {
 
 return (
   <>
-   <button onClick={toggleModal}>Maximillian Pegasus</button>
+   <button onClick={toggleModal}  className="char-btn">Maximillian Pegasus</button>
 
 {character && 
 <div className="modal">

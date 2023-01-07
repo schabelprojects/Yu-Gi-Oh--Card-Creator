@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import yugimuto from "../../../media/yugimuto.png"
 
 function YugiMuto() {
     const [character, setCharacter] = useState(false);
@@ -9,14 +10,13 @@ function YugiMuto() {
     };
   return (
     <>
-     <button onClick={toggleModal}>Yugi Muto</button>
-
+     <button onClick={toggleModal} className="char-btn">Yugi Muto</button>
 {character && 
  <div className="modal">
  <div className="overlay" onClick={toggleModal}></div>
  <div className="modal-content">
+     <img src={yugimuto} className="char-img" />
    <h2>Yugi Muto</h2>
-   <img src="" />
    <p>
      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
      labore quisquam similique inventore. Explicabo, quisquam nesciunt

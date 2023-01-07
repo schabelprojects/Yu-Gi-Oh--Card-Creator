@@ -10,7 +10,7 @@ function Tristan() {
 
 return (
   <>
-   <button onClick={toggleModal}>Tristan</button>
+   <button onClick={toggleModal} className="char-btn">Tristan Taylor</button>
 
 {character && 
 <div className="modal">

@@ -19,27 +19,30 @@ function CharacterIndex() {
 
   return (
     <>
-    <div>
+     <div className="char-title">
+      <h1>Yu-Gi-Oh! Character Index</h1>
+     </div>
+    <div className="character-container">
      <YugiMuto />
      <Atem />
      <SetoKaiba />
      </div>
-     <div>
+     <div className="character-container">
      <JoeyWheeler />
      <TeaGardner />
      <Tristan />
      </div>
-     <div>
+     <div className="character-container">
      <MaximillianPegasus />
      <MaiValentine />
      <WeevilUnderwood />
      </div>
-     <div>
+     <div className="character-container">
      <RexRaptor />
      <MarikIshtar/>
      <IshizuIshtar />
      </div>
-     <div>
+     <div className="character-container">
      <Odion />
      <MakoTsunami />
      <Dartz />
