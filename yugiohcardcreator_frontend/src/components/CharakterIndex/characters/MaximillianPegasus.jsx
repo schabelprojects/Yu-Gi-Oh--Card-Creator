@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import pegasus from "../../../media/pegasus.png";
 
 function MaximillianPegasus() {
   const [character, setCharacter] = useState(false);
@@ -16,12 +17,17 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={pegasus} className="char-img" alt="img" />
+ <h2>Maximillian Pegasus</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Maximilian Pegasus gilt als Erfinder von Duel Monsters. Die Idee seines Kartenspieles
+   liegen bei den alten ägyptischen Steintafel, womit die Ägypter vor 5000 Jahren Duelle
+   ausführten. Die meisten von diesen Monstern auf den Steintafeln übernahm er für das
+   Kartenspiel. Er wirkt immer etwas arrogant, spricht mit verträumter Stimme und man weiß
+   nie, was in ihm vorgehen mag. Er ist im Besitz des Millenniumsauges, mit dessen Hilfe
+   Pegasus die Gedanken anderer Menschen lesen kann, was er auch in Duellen nutzt. Sein
+   innigster Wunsch ist es, seine verstorbene Frau Cecilia Pegasus wieder zum Leben zu
+   erwecken.
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close

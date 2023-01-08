@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import weevilunderwood from "../../../media/weevilunderwood.png";
 
 function WeevilUnderwood() {
   const [character, setCharacter] = useState(false);
@@ -16,12 +17,11 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={weevilunderwood} className="char-img" alt="img" />
+ <h2>Weevil Underwood</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Weevil Underwood ist ein sehr gerissener Duelant dem jedes Mittel recht ist um zu gewinnen.
+   Sein Deck ist auf Insekten spezialisiert.
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close

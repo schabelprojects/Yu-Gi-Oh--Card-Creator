@@ -15,13 +15,15 @@ function YugiMuto() {
  <div className="modal">
  <div className="overlay" onClick={toggleModal}></div>
  <div className="modal-content">
-     <img src={yugimuto} className="char-img" />
+     <img src={yugimuto} className="char-img" alt="img" />
    <h2>Yugi Muto</h2>
    <p>
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-     labore quisquam similique inventore. Explicabo, quisquam nesciunt
-     enim cupiditate ducimus dolor sit cum recusandae libero impedit
-     distinctio, fugiat architecto ut laborum.
+     Yugi ist eher ein schüchterner Junge, aber wenn es darauf
+       ankommt immer für seine Freunde da, wenn sie ihn brauchen.
+       Er ist im Besitz des Milleniumspuzzles und bestreitet mit
+       seinen Freunden Joey, Tea und Tristan die größten Abenteuer.
+       In sehr schwierigen Situationen greift er auf die Macht seines
+       Puzzles zurück und bittet Yami Yugi um Unterstützung.
    </p>
    <button className="close-modal" onClick={toggleModal}>
      Close

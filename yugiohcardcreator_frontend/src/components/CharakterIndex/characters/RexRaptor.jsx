@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import rexraptor from "../../../media/rexraptor.png";
 
 function RexRaptor() {
   const [character, setCharacter] = useState(false);
@@ -16,7 +17,8 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={rexraptor} className="char-img" alt="img" />
+ <h2>Rex Raptor</h2>
  <p>
    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
    labore quisquam similique inventore. Explicabo, quisquam nesciunt

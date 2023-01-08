@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import maivalentine from "../../../media/maivalentine.png";
 
 function MaiValentine() {
   const [character, setCharacter] = useState(false);
@@ -16,12 +17,12 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={maivalentine} className="char-img" alt="img" />
+ <h2>Mai Valentine</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Mai Valentine ist eine starke Duellantin, die anfangs keine Freunde und sich selbst
+   durchs Leben geschlagen hatte und dachte, das wäre der richtige Weg.
+   Sie ist sehr gerissen und weiß, wie man Männer um den kleinen Finger wickelt.
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close

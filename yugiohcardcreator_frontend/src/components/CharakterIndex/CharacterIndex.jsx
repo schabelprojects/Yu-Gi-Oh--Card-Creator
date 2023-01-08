@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SetoKaiba from "./characters/SetoKaiba";
 import YugiMuto from "./characters/YugiMuto";
 import JoeyWheeler from "./characters/JoeyWheeler"
@@ -14,6 +14,9 @@ import Tristan from "./characters/Tristan"
 import WeevilUnderwood from "./characters/WeevilUnderwood"
 import MarikIshtar from "./characters/MarikIshtar"
 import MakoTsunami from "./characters/MakoTsunami"
+import Bakura from "./characters/Bakura.jsx";
+import YamiBakura from "./characters/YamiBakura.jsx";
+import YamiMarik from "./characters/YamiMarik.jsx";
 
 function CharacterIndex() {
 
@@ -46,6 +49,11 @@ function CharacterIndex() {
      <Odion />
      <MakoTsunami />
      <Dartz />
+     </div>
+     <div className="character-container">
+      <Bakura />
+      <YamiBakura />
+      <YamiMarik />
      </div>
     </>
   );

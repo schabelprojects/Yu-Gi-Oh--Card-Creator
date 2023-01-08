@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import teagardner from "../../../media/teagardner.jpg";
 
 function TeaGardner() {
   const [character, setCharacter] = useState(false);
@@ -16,12 +17,18 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={teagardner} className="char-img" alt="img" />
+ <h2>Tea Gardner</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Tea Gardner ist die beste Freundin von Yugi und geht mit ihm,
+   Joey Wheeler und Tristan Taylor in die selbe Schule. Sie ist intelligent,
+   hilfsbereit und schlagfertig. Nach der Schule möchte sie nach New York,
+   um dort tanzen zu lernen, obwohl sie so schon sehr begabt ist. Mit der Zeit
+   wird offensichtlich, dass sie wohl Gefühle für Yugi und auch für Yami Yugi hegt,
+   diese aber nicht offen zeigt. Tea ist zwar beim Duellieren eher schwach, da sie
+   sich nicht oft duelliert, jedoch weiß sie sich durchaus zu wehren
+   (anfangs war sie sogar besser als Joey). Sie übernimmt eher eine beschützende
+   und unterstützende Rolle.
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close

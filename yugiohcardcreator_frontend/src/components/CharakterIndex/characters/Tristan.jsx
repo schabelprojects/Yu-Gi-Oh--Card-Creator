@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../CharacterIndex.css";
+import tristan from "../../../media/tristan.png";
 
 function Tristan() {
   const [character, setCharacter] = useState(false);
@@ -16,12 +17,16 @@ return (
 <div className="modal">
 <div className="overlay" onClick={toggleModal}></div>
 <div className="modal-content">
- <h2>Hello Modal</h2>
+  <img src={tristan} className="char-img" alt="img" />
+ <h2>Tristan Taylor</h2>
  <p>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-   labore quisquam similique inventore. Explicabo, quisquam nesciunt
-   enim cupiditate ducimus dolor sit cum recusandae libero impedit
-   distinctio, fugiat architecto ut laborum.
+   Tristan Taylor ist ein Freund von Yugi Muto und der älteste Freund von Joey Wheeler,
+   mit dem er schon einiges erlebt hat. Tristan duelliert sich zwar so gut wie nie, hilft
+   aber seinen Freunden anderweitig so gut er kann. Charakterlich ähnelt er Joey, ist jedoch
+   unnahbarer und tendiert dazu, erst nach dem Überlegen zu handeln. Früher hat er zusammen
+   mit Joey Yugi gehänselt. Das änderte sich, als dieser die beiden in einer Schlägerei mit
+   dem Hausmeister ihrer Schule unter Einsatz seines Lebens gerettet hat. Seitdem ist er einer
+   von Yugis besten Freunden und hänselt auch niemanden mehr.
  </p>
  <button className="close-modal" onClick={toggleModal}>
    Close
