@@ -20,7 +20,7 @@
 
 .monsterBox{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 350px 250px 350px;
     grid-template-rows: 300px 100px; 
     column-gap: 185px;
     row-gap: 170px;

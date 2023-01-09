@@ -22,6 +22,12 @@ margin-left: 25px;
     font-size: 20px;
 }
 
+.card-img{
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+}
+
 .btn-modal {
     padding: 10px 20px;
     display: block;
@@ -49,11 +55,24 @@ margin-left: 25px;
     transform: translate(-50%, -50%);
     line-height: 1.4;
     background: #f1f1f1;
-    padding: 14px 300px;
+    padding: 100px 200px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
-    overflow: scroll;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+.cardmodal-name{
+    position: fixed;
+    right: 17.6rem;
+    top: 6rem;
+}
+
+.cardmodal-desc{
+    position: fixed;
+    text-align: justify;
+    width: 40%;
+    right: 7rem;
+    top: 8rem;
 }
 
 .close-modal {
