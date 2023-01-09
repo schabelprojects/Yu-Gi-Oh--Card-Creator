@@ -17,11 +17,15 @@ import MakoTsunami from "./characters/MakoTsunami"
 import Bakura from "./characters/Bakura.jsx";
 import YamiBakura from "./characters/YamiBakura.jsx";
 import YamiMarik from "./characters/YamiMarik.jsx";
+import Header from "../Header/Header";
 
 function CharacterIndex() {
 
   return (
     <>
+    <div>
+      <Header/>
+    </div>
      <div className="char-title">
       <h1>Yu-Gi-Oh! Character Index</h1>
      </div>

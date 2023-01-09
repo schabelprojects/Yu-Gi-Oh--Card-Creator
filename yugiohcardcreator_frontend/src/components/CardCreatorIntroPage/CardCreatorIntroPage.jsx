@@ -1,11 +1,12 @@
 import React from 'react'
+import Header from '../Header/Header'
 import "./CardCreatorIntroPage.css"
 
 
 function CardCreatorIntroPage() {
   return (
     <div>
-        <h1>CardCreator</h1>
+        <Header/>
     </div>
   )
 }

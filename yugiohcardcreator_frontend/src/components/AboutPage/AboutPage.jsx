@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 import "./AboutPage.css"
 
 function AboutPage() {
   return (
     <div>
-        AboutPage
+        <Header/>
     </div>
   )
 }
