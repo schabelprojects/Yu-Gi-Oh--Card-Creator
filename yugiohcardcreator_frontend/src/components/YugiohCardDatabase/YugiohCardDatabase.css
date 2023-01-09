@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carddatabase-container{
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .monstersearch{
+    position: absolute;
+    left: 37rem;
+    width: 15rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.monsterBox{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 300px 100px; 
+    column-gap: 185px;
+    row-gap: 170px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    width: 100%;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import mpuzzle from "../../media/milleniumspuzzle.jpg"
 
 function Header() {
   return (
