@@ -23,6 +23,7 @@ function MonsterCard(props: MonsterCardProps) {
 
   return (
     <div className="card">
+
     <button onClick={toggleModal} className="cardImage">{props.name}</button>
 
     {cardDescription && 
