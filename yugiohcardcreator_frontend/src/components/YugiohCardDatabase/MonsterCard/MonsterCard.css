@@ -12,14 +12,16 @@ margin-top: 20px;
 margin-left: 25px;
 }
 
-.cardImage{
+.cardbtn{
     display: flex;
     margin: auto;
     width: 300px;
     justify-content: center;
     text-align: center;
     font-family: Matrix;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: goldenrod;
+    color: black;
 }
 
 
@@ -57,7 +59,7 @@ margin-left: 25px;
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: grey;
+    background: white;
     padding: 100px 200px;
     border-radius: 3px;
     max-width: 800px;
@@ -71,16 +73,16 @@ margin-left: 25px;
     left: 30rem;
     font-size: 25px;
     top: 5rem;
-    color: white;
+    color: black;
 }
 
 .cardmodal-desc{
     position: fixed;
     width: 40%;
     left: 30rem;
-    top: 11rem;
+    top: 9rem;
     text-align: justify;
-    color: white;
+    color: black;
     font-size: 17px;
 }
 
