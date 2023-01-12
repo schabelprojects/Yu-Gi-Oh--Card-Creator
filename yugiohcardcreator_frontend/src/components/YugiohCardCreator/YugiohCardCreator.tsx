@@ -66,8 +66,8 @@ function YugiohCardCreator() {
       body: JSON.stringify({
         name: name,
         attribute: attribute,
-        xyzLevel: xyzStars.length,
-        normalLevel: normalStars.length,
+        xyzlevel: xyzStars.length,
+        normallevel: normalStars.length,
         cardtype: card,
         type: type,
         race: race,
