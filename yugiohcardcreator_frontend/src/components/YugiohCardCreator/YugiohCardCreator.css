@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 44rem;
+    height: 100%;
 }
 
 .db-link{
@@ -84,6 +84,8 @@
     font-size: 30px;
     font-family: Matrix;
     text-align: center;
+    background-color: grey;
+    color: white;
 }
 
 .level{
@@ -138,6 +140,8 @@
     position: absolute;
     top: 20rem;
     height: 10rem;
+    background-color: grey;
+    color: white;
 }
 
 .attribute-text{
