@@ -12,11 +12,11 @@
 
   .monstersearch{
     position: absolute;
-    left: 37rem;
-    width: 15rem;
-    font-size: 20px;
+    left: 33rem;
+    width: 20rem;
+    font-size: 25px;
     text-align: center;
-      top: 13rem;
+      top: 7rem;
 }
 
 .monsterBox{
@@ -27,6 +27,5 @@
     row-gap: 170px;
     align-items: center;
     text-align: center;
-    margin-top: 5rem;
     width: 100%;
 }

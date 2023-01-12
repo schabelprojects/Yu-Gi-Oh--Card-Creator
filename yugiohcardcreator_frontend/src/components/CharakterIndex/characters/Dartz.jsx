@@ -29,12 +29,7 @@ function Dartz() {
               ist Dartz von ihnen besessen, und glaubt daß die Steine nur das
               wahre Gesicht seines Volkes offenbaren und ein Segen seien, sowie
               dass die gesamte Menschheit schlecht sei und somit ausgelöscht
-              werden müsse. Sein Vater Eisenherz und seine Tochter stellten sich
-              gegen ihn holten die legendären Drachen und eine eigene Armee von
-              Monstern zu sich, um Dartz zu besiegen. So konnte zwar der
-              Leviathan verbannt werden doch wurde der Drache Timaeus von Dartz
-              am Auge verletzt und mit den anderen Drachen in Kristall
-              eingeschlossen. Dartz sammelt seitdem Seelen um den den Leviathan
+              werden müsse. Dartz sammelt seitdem Seelen um den den Leviathan
               wieder auferstehen zu lassen.
             </p>
             <button className="close-modal" onClick={toggleModal}>

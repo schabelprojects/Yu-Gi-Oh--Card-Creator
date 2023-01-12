@@ -32,10 +32,6 @@ function IshizuIshtar() {
               Seto über ihr Duell. Danach gab sie ihm die Karte von Oblisk und
               sagte ihm, er solle ein Tunier abhalten, um somit die restlichen
               ägyptischen Götterkarten von den Raritätenjägern zu bekommen.
-              Danach machte sie auch mit Yami Yugi und Tea einen Rundgang und
-              erzählte auch ihnen das, was sie Kaiba erzählt hatte. Während des
-              Battle City Tuniers kam sie auch in die Finalrunden um ihren
-              Bruder zu besiegen.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               Close

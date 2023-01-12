@@ -34,15 +34,12 @@ function YugiohCardDatabase() {
       })
       .catch(() => console.log("not good"));
   }, []);
-  
+
   return (
     <>
     <div>
         <Header/>
     </div>
-      <div className="char-title">
-        <h1>Yu-Gi-Oh! Card Database</h1>
-      </div>
     <div className="carddatabase-container">
     <input
         type="text"

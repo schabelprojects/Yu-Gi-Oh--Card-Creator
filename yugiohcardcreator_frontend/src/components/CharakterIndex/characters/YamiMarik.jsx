@@ -25,18 +25,10 @@ function YamiMarik() {
               geschaffen wurde, als dieser 12 Jahre alt war. Odion ist der
               einzige der ihn in Marik zurück halten konnte. Er konnte einmal in
               Mariks Kindheit schon mal die Kontrolle erlangen als Mariks Vater
-              Odion mit dem Millenniumsstab niedergeschlagen hat. Yami Marik
-              nahm sich den Stab und schickte seinen Vater ins Reich der
-              Schatten. Doch als Odion zu sich kam konnte er Yami Marik wieder
-              verschließen. Als aber Odion im Duell gegen Joey von Ra bestraft
-              wurde weil er eine Kopie einsetzte fiel er in ein Koma weshalb
-              Yami Marik wieder auftauchte. Er duelliert sich nur im Reich der
+              Odion mit dem Millenniumsstab niedergeschlagen hat. Er duelliert sich nur im Reich der
               Schatten und quält seine Opfer im Duell mit größtem Vergnügen. So
               schickte er nach einem Duell mit Mai, wobei jeder eine Erinnerung
-              ein jemanden verliert, sie ins Reich der Schatten. Sogar Yami
-              Bakura der sich mit Hilfe von dem echten Marik duellierte konnte
-              er ins Reich der Schatten schicken. Er wollte sich auch endgültig
-              Odions endledigen doch versteckte Isis ihn.
+              ein jemanden verliert, sie ins Reich der Schatten.
             </p>
             <button className="close-modal" onClick={toggleModal}>
               Close
