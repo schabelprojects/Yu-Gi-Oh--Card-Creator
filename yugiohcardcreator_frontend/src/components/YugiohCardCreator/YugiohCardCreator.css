@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body-container{
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 44rem;
+}
+
+.db-link{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: Hieroglyphics;
+    border: 3px solid black;
+    width: 25rem;
+    height: 2.5rem;
+    background: gold;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    left: 63.7rem;
+    bottom: 41rem;
+}
+
+.db-link:hover{
+    font-size: 40px;
+    font-family: Matrix;
+}
+
+.title_cardcreator{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    position: absolute;
+    left: 55rem;
+    bottom: 36rem;
+    color: gold;
+    font-size: 40px;
+}
+
+.cardtype-text{
+    color: white;
+    position: absolute;
+    top: 9.2rem;
+    font-size: 20px;
+    left: 10px;
+}
+
+.cardtype-array{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 9rem;
+    left: 7rem;
+    gap: 25px;
+}
+
+.cardtype-container{
+    display: flex;
+    position: absolute;
+    height: 34.5rem;
+    top: 6.5rem;
+    left: 13rem;
+
+}
+
+.inputfield{
+    display: flex;
+    position: absolute;
+    left: 55rem;
+    top: 7rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.input-items{
+    width: 25rem;
+    font-size: 30px;
+    font-family: Matrix;
+    text-align: center;
+}
+
+.level{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 6.5rem;
+    width: 3rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.level-text{
+    color: white;
+    position: absolute;
+    top: 52px;
+    font-size: 20px;
+    left: 10px;
+}
+
+
+
+.xyzlevel-text{
+    color: white;
+    position: absolute;
+    top: 52px;
+    font-size: 20px;
+    left: 13rem;
+}
+
+.xyzLevel{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 20.5rem;
+    width: 3rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+
+.descript-text{
+    width: 25rem;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    position: absolute;
+    top: 20rem;
+    height: 10rem;
+}
+
+.attribute-text{
+    color: white;
+    position: absolute;
+    top: 6.2rem;
+    font-size: 20px;
+    left: 10px;
+}
+
+.attribute-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 6rem;
+    left: 7rem;
+    gap: 10px;
+}
+
+.attribute-img{
+    display: flex;
+    height: 25px;
+}
+
+.btn{
+    border-radius: 15px;
+}
+
+.race-text{
+    color: white;
+    position: absolute;
+    top: 13rem;
+    font-size: 20px;
+    left: 13rem;
+}
+
+.race{
+    display: flex;
+    position: absolute;
+    top: 12.8rem;
+    left: 16.3rem;
+    width: 7.5rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.type-text{
+    color: white;
+    position: absolute;
+    top: 13rem;
+    font-size: 20px;
+    left: 10px;
+}
+
+.type{
+    display: flex;
+    position: absolute;
+    top: 12.8rem;
+    left: 4.2rem;
+    width: 7rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.attack-text{
+    color: white;
+    position: absolute;
+    top: 16.4rem;
+    font-size: 20px;
+    left: 10px;
+}
+
+.attack{
+    display: flex;
+    position: absolute;
+    top: 16rem;
+    left: 4rem;
+    width: 7rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.defence-text{
+    color: white;
+    position: absolute;
+    top: 16.4rem;
+    font-size: 20px;
+    left: 13rem;
+}
+
+.defence{
+    display: flex;
+    position: absolute;
+    top: 16rem;
+    left: 16.3rem;
+    width: 7rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.upload-text{
+    color: white;
+    position: absolute;
+    top: 31.9rem;
+    font-size: 20px;
+    left: 10px;
+}
+
+.upload{
+    display: flex;
+    position: absolute;
+    top: 32rem;
+    left: 5rem;
+    width: 20rem;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.star-container{
+    display: flex;
+    height: 23px;
+    flex-direction: row-reverse;
+    position: absolute;
+    right: 50rem;
+    top: 11.8rem;
+    z-index: 1;
+
+}
+
+.star-container2{
+    display: flex;
+    height: 24px;
+    flex-direction: row;
+    width: 10rem;
+    position: absolute;
+    right: 58.5rem;
+    top: 11.8rem;
+    z-index: 1;
+    gap: 0.5px;
+}
+
+.star{
+    display: flex;
+    border-radius: 20px;
+}
+
+.star2{
+    display: flex;
+    border-radius: 20px;
+}
+
+.attribute_card{
+    display: flex;
+    position: absolute;
+    height: 36px;
+    border-radius: 30px;
+    top: 8.7rem;
+    left: 32rem;
+    z-index: 1;
+}
+
+.race-container{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-family: Matrix;
+    font-size: 16px;
+    left: 15.5rem;
+    top: 35.3rem;
+    z-index: 1;
+}
+
+.name-container{
+    display: flex;
+    position: absolute;
+    font-family: Matrix;
+    font-size: 25px;
+    left: 15.5rem;
+    top: 8.8rem;
+    z-index: 1;
+    width: 30%;
+    text-align: justify;
+    color: gold;
+    letter-spacing: -1px;
+}
+
+.desc-container{
+    display: flex;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 36.5rem;
+    left: 15.5rem;
+    width: 197px;
+    height: 40px;
+    overflow: auto;
+    text-align: start;
+    letter-spacing: -1;
+    font-size: 11px;
+}
+
+.attack-container{
+    display: flex;
+    position: absolute;
+    font-family:'Courier New', Courier,;
+    top: 35rem ;
+    left: 31rem ;
+    z-index: 1;
+    font-size: 25px;
+    color: black;
+}
+
+.defence-container{
+    display: flex;
+    position: absolute;
+    font-family:'Courier New', Courier,;
+    top: 36.8rem ;
+    left: 31rem ;
+    z-index: 1;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1;
+}
+
+.uploadButton{
+    display: flex;
+    position: absolute;
+    top: 34rem;
+    height: 24px;
+    left: 5rem;
+}
+
+.monsterImage{
+    display: flex;
+    height: 18.36rem;
+    position: absolute;
+    top: 14.6rem;
+    left: 16.5rem;
+    width: 16.65rem;
+}
+
+.save-container{
+    display: flex;
+    position: absolute;
+    top: 20rem;
+    left: 44rem;
+}
+
+.save-button{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    font-size: 20px;
+}
