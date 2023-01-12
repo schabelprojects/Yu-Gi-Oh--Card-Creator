@@ -34,8 +34,8 @@ function CardDatabase() {
                       <div className="savedname">Name: {card.name}</div>
                       <div className="savedrace">Race: {card.race}</div>
                       <div className="savedtype">Type: {card.type}</div>
-                      <div className="savedlevel">Level: {card.normalLevel}</div>
-                      <div className="savedxyzlevel">Xyz-Level: {card.xyzLevel}</div>
+                      <div className="savedlevel">Level: {card.normallevel}</div>
+                      <div className="savedxyzlevel">Xyz-Level: {card.xyzlevel}</div>
                       <div className="attribute-txt">Attribute:</div>
                       <img className="savedattribute" src={card.attribute} alt="" />
                       <div className="savedattack">Attack: {card.attack}</div>
