@@ -17,10 +17,10 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/yugidatabase" element={<YugiohCardDatabase />} />
+          <Route path="/cardlist" element={<YugiohCardDatabase />} />
           <Route path="/introduction" element={<CardCreatorIntroPage />} />
           <Route path="/cardcreator" element={<YugiohCardCreator />} />
-          <Route path="/carddatabase" element={<CardDataBase />} />
+          <Route path="/cardcreatordatabase" element={<CardDataBase />} />
           <Route path="/character" element={<CharacterIndex />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>

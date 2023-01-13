@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
-import Header from "../Header/Header.jsx";
 import yugimusic from "../../media/yugimusic.mp3";
+import {Link} from "react-router-dom"
 
 function HomePage() {
   return (
@@ -10,7 +10,24 @@ function HomePage() {
             <source src={yugimusic} type="audio/mpeg"/>
         </audio>
       <div>
-        <Header/>
+        <Link to="/introduction">
+          Introduction
+        </Link>
+        <Link to="/cardlist">
+          Yu-Gi-Oh! Card List
+        </Link>
+        <Link to="/cardcreator">
+          Yu-Gi-Oh! Card Creator
+        </Link>
+        <Link to="/cardcreatordatabase">
+          List of created Cards
+        </Link>
+        <Link to="/character">
+          Character Index
+        </Link>
+        <Link to="/about">
+          About
+        </Link>
       </div>
     </>
   );
