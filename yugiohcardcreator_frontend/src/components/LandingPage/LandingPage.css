@@ -4,32 +4,29 @@
 }
 
 .logo{
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    margin: auto;
-    padding-top: 50px;
+    position: absolute;
+    left: 26rem;
+    top: 3rem ;
+    height: 180px;
 }
 
 .apptitle{
     display: flex;
     position: absolute;
-    left: 29rem;
-    top: 16rem;
+    left: 27rem;
+    top: 14rem;
     font-size: 50px;
     background-color: black;
     width: 30rem;
     color: white;
     justify-content: center;
-    min-width: 500px;
-    max-width: 800px;
 }
 
 .enterlink{
     display: flex;
     position: absolute;
-    left: 29rem;
-    top: 23rem;
+    left: 27rem;
+    top: 20rem;
     font-size: 45px;
     text-decoration: none;
     color: goldenrod;

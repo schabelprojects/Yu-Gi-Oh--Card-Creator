@@ -139,7 +139,6 @@ function YugiohCardCreator() {
         <div>
           <Header/>
         </div>
-
         <div className="attribute_card">
           {attribute && <img src={attribute} alt="character Attribute" />}
         </div>

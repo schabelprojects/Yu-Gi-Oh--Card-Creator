@@ -15,7 +15,9 @@ function LandingPage() {
         </audio>
      <div>
        <img src={yugilogo} className="logo" alt="default"/>
+         <div className="apptitlecontainer">
          <h1 className="apptitle">Yu-Gi-Oh! Card Creator</h1>
+         </div>
          <Link className="enterlink" to="/home">
              Enter
          </Link>
