@@ -3,38 +3,39 @@ import  React, {useState} from 'react'
 import Header from '../Header/Header'
 import "./YugiohCardCreator.css"
 import { createArraysWithIds } from "../../utils/array";
+import kaibamusic from "../../media/kaibamusic.mp3"
 
-// @ts-ignore
+
 import normalcard from '../../media/normal.png'
-// @ts-ignore
+
 import effectcard from '../../media/effect.png'
-// @ts-ignore
+
 import fusioncard from '../../media/fusion.png'
-// @ts-ignore
+
 import ritualcard from '../../media/ritual.png'
-// @ts-ignore
+
 import synchrocard from '../../media/synchro.png'
-// @ts-ignore
+
 import xyzcard from '../../media/xyz.png'
 
-// @ts-ignore
+
 import levelstarNormal from '../../media/levelstar_normal.png'
-// @ts-ignore
+
 import levelstarXyz from '../../media/levelstar_xyz.png'
 
-// @ts-ignore
+
 import dark from "../../media/dark.png"
-// @ts-ignore
+
 import light from "../../media/light.png"
-// @ts-ignore
+
 import divine from "../../media/divine.png"
-// @ts-ignore
+
 import fire from "../../media/fire.png"
-// @ts-ignore
+
 import earth from "../../media/earth.png"
-// @ts-ignore
+
 import wind from "../../media/wind.png"
-// @ts-ignore
+
 import water from "../../media/water.png"
 
 const attributes = [dark, light, divine, earth, fire, wind, water];
@@ -359,6 +360,9 @@ function YugiohCardCreator() {
             Save this Card
           </button>
         </div>
+        <audio autoPlay loop>
+          <source src={kaibamusic} type="audio/mpeg"/>
+        </audio>
       </div>
   );
 }

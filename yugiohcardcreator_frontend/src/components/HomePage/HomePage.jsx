@@ -1,8 +1,11 @@
 import React from "react";
 import "./HomePage.css";
 import yugimusic from "../../media/yugimusic.mp3";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 import yugilogo from "../../media/yugiohlogo.png";
+import blueeyes from "../../media/blueeyes.png";
+import blueeyessound from "../../media/blueeyessound.mp3";
+
 
 function HomePage() {
   return (
@@ -36,6 +39,12 @@ function HomePage() {
           About
         </Link>
       </div>
+        <div >
+            <img className="blueeyes-img" src={blueeyes} alt="pic" />
+        </div>
+        <audio autoPlay >
+            <source src={blueeyessound} type="audio/mpeg"/>
+        </audio>
     </>
   );
 }

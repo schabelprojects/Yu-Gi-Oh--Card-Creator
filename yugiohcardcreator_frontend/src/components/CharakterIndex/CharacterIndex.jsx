@@ -18,11 +18,15 @@ import Bakura from "./characters/Bakura.jsx";
 import YamiBakura from "./characters/YamiBakura.jsx";
 import YamiMarik from "./characters/YamiMarik.jsx";
 import Header from "../Header/Header";
+import joeymusic from "../../media/joeymusic.mp3"
 
 function CharacterIndex() {
 
   return (
     <>
+     <audio autoPlay loop>
+      <source src={joeymusic} type="audio/mpeg"/>
+     </audio>
     <div>
       <Header/>
     </div>

@@ -12,19 +12,23 @@
 
   .monstersearch{
     position: absolute;
-    left: 33rem;
+    left: 31rem;
     width: 20rem;
     font-size: 25px;
     text-align: center;
       top: 7rem;
+      background-color: rgba(0, 0, 0, 1);
+      color: white
 }
 
 .monsterBox{
     display: grid;
     grid-template-columns: 350px 250px 350px;
-    grid-template-rows: 300px 100px; 
-    column-gap: 185px;
-    row-gap: 170px;
+    grid-template-rows: 300px -50px 50px;
+    position: absolute;
+    top: 15rem;
+    column-gap: 155px;
+    row-gap: 50px;
     align-items: center;
     text-align: center;
     width: 100%;

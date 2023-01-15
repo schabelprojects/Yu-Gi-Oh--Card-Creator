@@ -7,6 +7,8 @@ function Header() {
   return (
     <div className="nav-container">
       <div className="nav-content">
+          <Link className="nav-item" to="/home">Home</Link>
+          <Link className="nav-item" to="/introduction">Introduction</Link>
         <Link className="nav-item" to="/cardlist">Yu-Gi-Oh! Card List</Link>
         <Link className="nav-item" to="/cardcreator">Card Creator</Link>
         <Link className="nav-item" to="/cardcreatordatabase">Card Creator Database</Link>

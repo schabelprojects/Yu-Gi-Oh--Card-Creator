@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import Header from '../Header/Header'
 import "./CardDatabase.css"
 import YugiohCard from "../../model";
+import yugimusictwo from "../../media/yugimusic2.mp3";
 
 function CardDatabase() {
     const [cards, setCards] = useState([] as Array<YugiohCard>);
@@ -24,6 +25,9 @@ function CardDatabase() {
           <div>
              <Header/>
           </div>
+          <audio autoPlay loop>
+              <source src={yugimusictwo} type="audio/mpeg"/>
+          </audio>
 
           {cards.map((card) => (
               <div key={card.id} className="savedCard">

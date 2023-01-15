@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react'
 import Header from '../Header/Header'
 import "./YugiohCardDatabase.css"
 import MonsterCard from "./MonsterCard/MonsterCard";
+import joeymusictwo from "../../media/joeymusic2.mp3"
 
 
 interface MonsterDetails {
@@ -40,6 +41,9 @@ function YugiohCardDatabase() {
     <div>
         <Header/>
     </div>
+      <audio autoPlay loop>
+        <source src={joeymusictwo} type="audio/mpeg"/>
+      </audio>
     <div className="carddatabase-container">
     <input
         type="text"

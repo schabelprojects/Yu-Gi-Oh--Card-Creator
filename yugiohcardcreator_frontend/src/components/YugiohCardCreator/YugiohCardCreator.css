@@ -41,7 +41,7 @@
 .cardtype-container{
     display: flex;
     position: absolute;
-    height: 34.5rem;
+    height: 30rem;
     top: 6.5rem;
     left: 13rem;
 
@@ -50,7 +50,7 @@
 .inputfield{
     display: flex;
     position: absolute;
-    left: 55rem;
+    left: 50rem;
     top: 7rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -115,7 +115,7 @@
     display: flex;
     position: absolute;
     top: 20rem;
-    height: 10rem;
+    height: 7rem;
     background-color: grey;
     color: white;
 }
@@ -140,6 +140,7 @@
 .attribute-img{
     display: flex;
     height: 25px;
+    border-radius: 10px;
 }
 
 .btn{
@@ -229,7 +230,7 @@
 .upload-text{
     color: white;
     position: absolute;
-    top: 31.9rem;
+    top: 30rem;
     font-size: 20px;
     left: 10px;
 }
@@ -237,7 +238,7 @@
 .upload{
     display: flex;
     position: absolute;
-    top: 32rem;
+    top: 30rem;
     left: 5rem;
     width: 20rem;
     height: 30px;
@@ -248,23 +249,23 @@
 
 .star-container{
     display: flex;
-    height: 23px;
+    height: 21px;
     flex-direction: row-reverse;
     position: absolute;
-    right: 44.5rem;
-    top: 11.8rem;
+    right: 48.4rem;
+    top: 11.2rem;
     z-index: 1;
 
 }
 
 .star-container2{
     display: flex;
-    height: 24px;
+    height: 21px;
     flex-direction: row;
     width: 10rem;
     position: absolute;
-    right: 58.5rem;
-    top: 11.8rem;
+    right: 54.5rem;
+    top: 11rem;
     z-index: 1;
     gap: 0.5px;
 }
@@ -283,10 +284,13 @@
     display: flex;
     position: absolute;
     height: 36px;
-    border-radius: 30px;
-    top: 8.7rem;
-    left: 32rem;
+    top: 8.3rem;
+    left: 29.5rem;
     z-index: 1;
+}
+
+.attribute_card img{
+    border-radius: 30px;
 }
 
 .race-container{
@@ -297,7 +301,7 @@
     font-family: Matrix;
     font-size: 16px;
     left: 15.5rem;
-    top: 35.3rem;
+    top: 31.3rem;
     z-index: 1;
 }
 
@@ -307,7 +311,7 @@
     font-family: Matrix;
     font-size: 25px;
     left: 15.5rem;
-    top: 8.8rem;
+    top: 8.4rem;
     z-index: 1;
     width: 30%;
     text-align: justify;
@@ -319,22 +323,22 @@
     display: flex;
     position: absolute;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    top: 36.5rem;
+    top: 32.5rem;
     left: 15.5rem;
-    width: 197px;
-    height: 40px;
+    width: 175px;
+    height: 35px;
     overflow: auto;
     text-align: start;
     letter-spacing: -1;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .attack-container{
     display: flex;
     position: absolute;
     font-family:'Courier New', Courier,;
-    top: 35rem ;
-    left: 31rem ;
+    top: 31rem ;
+    left: 28.5rem ;
     z-index: 1;
     font-size: 25px;
     color: black;
@@ -344,8 +348,8 @@
     display: flex;
     position: absolute;
     font-family:'Courier New', Courier,;
-    top: 36.8rem ;
-    left: 31rem ;
+    top: 32.5rem ;
+    left: 28.5rem ;
     z-index: 1;
     font-size: 25px;
     color: black;
@@ -355,18 +359,19 @@
 .uploadButton{
     display: flex;
     position: absolute;
-    top: 34rem;
+    top: 30rem;
     height: 24px;
-    left: 5rem;
+    right: 21rem;
+    width: 10rem;
 }
 
 .monsterImage{
     display: flex;
-    height: 18.36rem;
+    height: 16rem;
     position: absolute;
-    top: 14.6rem;
-    left: 16.5rem;
-    width: 16.65rem;
+    top: 13.5rem;
+    left: 16rem;
+    width: 14.5rem;
 }
 
 .save-container{
@@ -383,4 +388,8 @@
     height: 80px;
     align-items: center;
     font-size: 20px;
+}
+
+.creator-container{
+    margin-left: 20rem;
 }
