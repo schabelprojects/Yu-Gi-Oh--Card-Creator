@@ -12,7 +12,7 @@
 }
 
 .nav-item{
-    text-decoration: underline;
+    text-decoration: none;
     color: goldenrod;
     font-size: 25px;
 }

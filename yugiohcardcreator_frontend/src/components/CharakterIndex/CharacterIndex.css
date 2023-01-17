@@ -3,18 +3,6 @@
     padding: 0;
 }
 
-.char-title{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3rem;
-    font-size: 24px;
-    background-color: goldenrod;
-    color: black;
-    margin-right: 15rem;
-    margin-left: 15rem;
-}
-
 .char-img{
     display: flex;
     flex-direction: row;
@@ -37,8 +25,8 @@
     width: 15rem;
     justify-content: center;
     align-items: center;
-    background-color: goldenrod;
-    color: black;
+    background-color: rgba(0,0,0,0.7);
+    color: goldenrod;
     font-family: Matrix;
     font-size: 24px;
 }

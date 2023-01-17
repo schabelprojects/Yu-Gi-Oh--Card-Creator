@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.enterlink{
+.old-enterlink{
     display: flex;
     position: absolute;
     left: 27rem;
@@ -34,7 +34,7 @@
     justify-content: center;
     border: 1px solid black;
     background-color: rgba(0,0,0,0.7);
-    animation: fadeInText 5s;
+    font-family: Hieroglify;
 }
 
 @keyframes fadeInText {
@@ -55,4 +55,36 @@
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+.new-enterlink {
+    display: flex;
+    position: absolute;
+    left: 27rem;
+    top: 20rem;
+    font-size: 45px;
+    text-decoration: none;
+    color: goldenrod;
+    width: 30rem;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0.7);
+    font-family: Matrix;
+    opacity: 0;
+}
+
+.old-enterlink, .new-enterlink {
+    transition: opacity 0.5s linear;
+}
+
+.wrap:hover .old-enterlink {
+    opacity: 0;
+}
+.wrap:hover .new-enterlink {
+    opacity: 1;
+}
+
+.lnk{
+    text-decoration: none;
+    color: white;
 }

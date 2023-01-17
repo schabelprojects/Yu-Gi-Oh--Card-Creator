@@ -252,7 +252,7 @@
     height: 21px;
     flex-direction: row-reverse;
     position: absolute;
-    right: 48.4rem;
+    right: 47.2rem;
     top: 11.2rem;
     z-index: 1;
 
@@ -264,7 +264,7 @@
     flex-direction: row;
     width: 10rem;
     position: absolute;
-    right: 54.5rem;
+    right: 53.5rem;
     top: 11rem;
     z-index: 1;
     gap: 0.5px;

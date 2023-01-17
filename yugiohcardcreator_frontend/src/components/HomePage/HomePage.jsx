@@ -27,10 +27,10 @@ function HomePage() {
           Yu-Gi-Oh! Card List
         </Link>
         <Link className="nav-option" to="/cardcreator">
-          Yu-Gi-Oh! Card Creator
+          Card Creator
         </Link>
         <Link className="nav-option" to="/cardcreatordatabase">
-          List of created Cards
+          Created Cards
         </Link>
         <Link className="nav-option" to="/character">
           Character Index

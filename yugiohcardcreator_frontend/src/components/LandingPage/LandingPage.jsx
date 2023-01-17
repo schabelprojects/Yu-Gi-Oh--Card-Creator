@@ -18,9 +18,18 @@ function LandingPage() {
          <div className="apptitlecontainer">
          <h1 className="apptitle">Yu-Gi-Oh! Card Creator</h1>
          </div>
-         <Link className="enterlink" to="/home">
+         <div className="wrap">
+         <div className="old-enterlink">
+         <Link className="lnk" to="/home">
              Enter
          </Link>
+         </div>
+         <div className="new-enterlink">
+             <Link className="lnk" to="/home">
+                 Enter
+             </Link>
+         </div>
+         </div>
          <div className="imgyugi">
              <img src={yugikaiba} className="yugikaiba" alt="default"/>
          </div>

@@ -1,42 +1,26 @@
-// @ts-ignore
-import  React, {useState} from 'react'
+import React, {useState} from 'react'
 import Header from '../Header/Header'
 import "./YugiohCardCreator.css"
 import { createArraysWithIds } from "../../utils/array";
-import kaibamusic from "../../media/kaibamusic.mp3"
 
-
-import normalcard from '../../media/normal.png'
-
-import effectcard from '../../media/effect.png'
-
-import fusioncard from '../../media/fusion.png'
-
-import ritualcard from '../../media/ritual.png'
-
-import synchrocard from '../../media/synchro.png'
-
-import xyzcard from '../../media/xyz.png'
-
-
-import levelstarNormal from '../../media/levelstar_normal.png'
-
-import levelstarXyz from '../../media/levelstar_xyz.png'
-
+import kaibamusic from "../../media/kaibamusic.mp3";
+import normalcard from '../../media/normal.png';
+import effectcard from '../../media/effect.png';
+import fusioncard from '../../media/fusion.png';
+import ritualcard from '../../media/ritual.png';
+import synchrocard from '../../media/synchro.png';
+import xyzcard from '../../media/xyz.png';
+import levelstarNormal from '../../media/levelstar_normal.png';
+import levelstarXyz from '../../media/levelstar_xyz.png';
 
 import dark from "../../media/dark.png"
-
 import light from "../../media/light.png"
-
 import divine from "../../media/divine.png"
-
 import fire from "../../media/fire.png"
-
 import earth from "../../media/earth.png"
-
 import wind from "../../media/wind.png"
-
 import water from "../../media/water.png"
+
 
 const attributes = [dark, light, divine, earth, fire, wind, water];
 
