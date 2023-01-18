@@ -3,14 +3,12 @@ import "./LandingPage.css"
 import yugilogo from "../../media/yugiohlogo.png"
 import yugikaiba from "../../media/yugikaiba.png"
 import {Link} from "react-router-dom"
-import yugiintro from "../../media/yugiohintro.mp3";
-import blueeyes from "../../media/blueeyes.png"
-import darkmagician from "../../media/darkmagician.png"
+import yugiintro from "../../media/yugiintroenglish.mp3";
 
 function LandingPage() {
   return (
     <>
-        <audio autoPlay>
+        <audio autoPlay loop>
             <source src={yugiintro} type="audio/mpeg"/>
         </audio>
      <div>
