@@ -5,19 +5,19 @@
 
 .logo{
     position: absolute;
-    left: 26rem;
-    top: 3rem ;
-    height: 180px;
+    left: 28rem;
+    top: 0rem ;
+    height: 150px;
 }
 
 .apptitle{
     display: flex;
     position: absolute;
-    left: 27rem;
-    top: 14rem;
-    font-size: 50px;
+    left: 28rem;
+    top: 10rem;
+    font-size: 40px;
     background-color: black;
-    width: 30rem;
+    width: 26rem;
     color: white;
     justify-content: center;
 }
@@ -25,12 +25,12 @@
 .old-enterlink{
     display: flex;
     position: absolute;
-    left: 27rem;
-    top: 20rem;
-    font-size: 45px;
+    left: 30rem;
+    top: 15rem;
+    font-size: 35px;
     text-decoration: none;
     color: goldenrod;
-    width: 30rem;
+    width: 22rem;
     justify-content: center;
     border: 1px solid black;
     background-color: rgba(0,0,0,0.7);
@@ -42,10 +42,11 @@
     100% { opacity: 1; }
 }
 
-.yugikaiba{
+.yugi{
     position: absolute;
     height: 30rem;
     bottom: 0rem;
+    left: 10rem;
 }
 
 .imgyugi{
@@ -60,12 +61,12 @@
 .new-enterlink {
     display: flex;
     position: absolute;
-    left: 27rem;
-    top: 20rem;
-    font-size: 45px;
+    left: 30rem;
+    top: 15rem;
+    font-size: 35px;
     text-decoration: none;
     color: goldenrod;
-    width: 30rem;
+    width: 22rem;
     justify-content: center;
     border: 1px solid black;
     background-color: rgba(0,0,0,0.7);
@@ -87,4 +88,10 @@
 .lnk{
     text-decoration: none;
     color: white;
+}
+.kaiba{
+    position: absolute;
+    height: 30rem;
+    bottom: 0rem;
+    left: 56rem;
 }

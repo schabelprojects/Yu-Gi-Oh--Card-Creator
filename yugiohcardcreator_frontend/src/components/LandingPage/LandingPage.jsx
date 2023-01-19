@@ -1,9 +1,10 @@
 import React from 'react'
 import "./LandingPage.css"
 import yugilogo from "../../media/yugiohlogo.png"
-import yugikaiba from "../../media/yugikaiba.png"
+import yugi from "../../media/yugi.png"
 import {Link} from "react-router-dom"
 import yugiintro from "../../media/yugiintroenglish.mp3";
+import kaiba from "../../media/kaiba.png"
 
 function LandingPage() {
   return (
@@ -29,7 +30,8 @@ function LandingPage() {
          </div>
          </div>
          <div className="imgyugi">
-             <img src={yugikaiba} className="yugikaiba" alt="default"/>
+             <img src={yugi} className="yugi" alt="default"/>
+             <img src={kaiba} className="kaiba" alt="default"/>
          </div>
      </div>
     </>

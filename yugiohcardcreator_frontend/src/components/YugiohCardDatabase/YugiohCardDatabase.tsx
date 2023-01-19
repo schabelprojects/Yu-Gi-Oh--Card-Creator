@@ -27,7 +27,7 @@ function YugiohCardDatabase() {
   const [monsters, setMonsters] = useState([] as Array<MonsterDetails>);
 
   useEffect(() => {
-    fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php?language=de`)
+    fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php`)
       .then((response) => response.json())
       .then((data) => {
         setMonsters(data.data);
